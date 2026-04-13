@@ -9,7 +9,7 @@ class ResUsers(models.Model):
 
     chatter_position = fields.Selection(
         [
-            ("auto", "Automatic"),
+            ("auto", "Responsive"),
             ("bottom", "Bottom"),
             ("sided", "Sided"),
         ],
